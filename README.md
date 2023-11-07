@@ -91,3 +91,111 @@ Gestiona Git en VS Code: Utiliza la integración de Git de VS Code para clonar r
 Terminal Integrada: VS Code incluye una terminal integrada que puede ejecutar comandos de Git Bash, lo que te permite alternar fácilmente entre la interfaz gráfica y la línea de comandos.
 
 Con esta combinación de Git Bash y Visual Studio Code, puedes desarrollar y gestionar tus proyectos de manera eficiente, aprovechando las ventajas de Git y un entorno de desarrollo poderoso y altamente personalizable.
+
+
+
+Entendido, aquí tienes la sección de comandos básicos de Git en un formato que puedes copiar y pegar directamente en el README de tu repositorio en GitHub:
+
+```markdown
+## Comandos Básicos de Git
+
+A continuación, se presentan algunos comandos básicos de Git que te serán útiles en tu flujo de trabajo de desarrollo:
+
+<details>
+<summary>Configuración</summary>
+
+```bash
+# Configura tu nombre de usuario
+git config --global user.name "Tu Nombre"
+
+# Configura tu dirección de correo electrónico
+git config --global user.email "tu@email.com"
+```
+</details>
+
+<details>
+<summary>Iniciar un Repositorio</summary>
+
+```bash
+# Crea un nuevo repositorio Git en el directorio actual
+git init
+```
+</details>
+
+<details>
+<summary>Realizar Cambios</summary>
+
+```bash
+# Añade archivos y cambios al área de preparación (staging) para la próxima confirmación
+git add nombre_del_archivo
+
+# Registra los cambios en el repositorio con un mensaje descriptivo
+git commit -m "Mensaje de confirmación"
+```
+</details>
+
+<details>
+<summary>Historial y Ramas</summary>
+
+```bash
+# Muestra el historial de confirmaciones
+git log
+
+# Crea una nueva rama para trabajar en una característica o corrección
+git branch nombre_de_la_rama
+
+# Cambia a una rama específica
+git checkout nombre_de_la_rama
+
+# Fusiona los cambios de una rama en otra
+git merge nombre_de_la_rama
+```
+</details>
+
+<details>
+<summary>Colaboración y Remotos</summary>
+
+```bash
+# Clona un repositorio existente en tu computadora
+git clone URL_del_repositorio
+
+# Actualiza tu repositorio local con los cambios del remoto
+git pull
+
+# Sube tus cambios al repositorio remoto
+git push
+```
+</details>
+
+<details>
+<summary>Estado y Diferencias</summary>
+
+```bash
+# Muestra el estado actual de los archivos en tu repositorio
+git status
+
+# Muestra las diferencias entre el directorio de trabajo y el área de preparación
+git diff
+
+# Deshace los cambios realizados en el área de preparación
+git reset nombre_del_archivo
+
+# Descarta los cambios no confirmados en tu directorio de trabajo
+git checkout -- nombre_del_archivo
+```
+</details>
+
+<details>
+<summary>Etiquetas y Ramas</summary>
+
+```bash
+# Crea una etiqueta (tag) en una confirmación específica
+git tag nombre_de_la_etiqueta
+
+# Elimina una rama (asegúrate de no estar en la rama que deseas eliminar)
+git branch -d nombre_de_la_rama
+```
+</details>
+
+Estos son algunos de los comandos básicos de Git que te ayudarán a empezar a trabajar con este sistema de control de versiones. A medida que te familiarices con Git, podrás explorar comandos más avanzados y personalizar tu flujo de trabajo según tus necesidades.
+```
